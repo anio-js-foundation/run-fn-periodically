@@ -1,0 +1,22 @@
+{
+  "name": "@anio-js-foundation/run-fn-periodically",
+  "version": "1.0.0",
+  "description": "Run a function periodically.",
+  "main": "./dist/package.mjs",
+  "author": "Anio Software <info@anio-software.de>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anio-js-foundation/run-fn-periodically.git"
+  },
+  "devDependencies": {
+    "@anio-js-core-foundation/fn-measure-execution-time": "^1.0.0",
+    "@anio-js-foundation/bundle-package": "^2.0.1"
+  },
+  "scripts": {
+    "prepare": "./node_modules/.bin/bundle-package ."
+  },
+  "files": [
+    "./dist/package.mjs"
+  ]
+}
