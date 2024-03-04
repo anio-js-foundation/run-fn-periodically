@@ -10,11 +10,11 @@
     "url": "git+https://github.com/anio-js-foundation/run-fn-periodically.git"
   },
   "devDependencies": {
-    "@anio-js-core-foundation/fn-measure-execution-time": "^1.0.0",
-    "@anio-js-foundation/bundle-package": "^2.0.1"
+    "@anio-js-foundation/fn-measure-execution-time": "^2.0.0",
+    "@anio-software/npm-package-bundler": "^1.0.0"
   },
   "scripts": {
-    "prepare": "./node_modules/.bin/bundle-package ."
+    "prepare": "./node_modules/.bin/npm-package-bundler ."
   },
   "files": [
     "./dist/package.mjs"

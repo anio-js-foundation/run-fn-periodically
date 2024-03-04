@@ -1,4 +1,4 @@
-import fnMeasureExecutionTime from "@anio-js-core-foundation/fn-measure-execution-time"
+import fnMeasureExecutionTime from "@anio-js-foundation/fn-measure-execution-time"
 
 export default function runFnPeriodically(fn, period) {
 	let loop_timer, stopped = false
